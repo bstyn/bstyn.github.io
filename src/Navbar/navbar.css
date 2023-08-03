@@ -1,0 +1,32 @@
+.navBar{
+    background-color: slategrey;
+}
+
+.contentList{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-end;
+}
+
+.contentList > li > a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.contentList > li{
+    width: 100px;
+    height: 40px;
+    background-color: darkslategrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px darkgray solid;
+}
+
+.contentList > li:last-child{
+    border:0;
+}

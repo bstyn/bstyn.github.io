@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Navbar from './Navbar/Navbar'
+import About from './Content/About';
+import Homepage from './Content/Homepage';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -9,8 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename="/">
+      <Navbar />
       <Routes>
-        <Route path="/" Component={App} />
+        <Route path="/" Component={Homepage} />
+        <Route path="/about" Component={About} />
       </Routes>
     </BrowserRouter>
     
