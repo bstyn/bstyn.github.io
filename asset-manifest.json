@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bstyn.github.io/static/css/main.760b12d6.css",
-    "main.js": "/bstyn.github.io/static/js/main.294a59ce.js",
-    "static/js/787.80432ffd.chunk.js": "/bstyn.github.io/static/js/787.80432ffd.chunk.js",
-    "index.html": "/bstyn.github.io/index.html",
-    "main.760b12d6.css.map": "/bstyn.github.io/static/css/main.760b12d6.css.map",
-    "main.294a59ce.js.map": "/bstyn.github.io/static/js/main.294a59ce.js.map",
-    "787.80432ffd.chunk.js.map": "/bstyn.github.io/static/js/787.80432ffd.chunk.js.map"
+    "main.css": "/static/css/main.760b12d6.css",
+    "main.js": "/static/js/main.b881e08a.js",
+    "static/js/787.80432ffd.chunk.js": "/static/js/787.80432ffd.chunk.js",
+    "index.html": "/index.html",
+    "main.760b12d6.css.map": "/static/css/main.760b12d6.css.map",
+    "main.b881e08a.js.map": "/static/js/main.b881e08a.js.map",
+    "787.80432ffd.chunk.js.map": "/static/js/787.80432ffd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.760b12d6.css",
-    "static/js/main.294a59ce.js"
+    "static/js/main.b881e08a.js"
   ]
 }
