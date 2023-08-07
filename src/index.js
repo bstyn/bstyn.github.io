@@ -5,18 +5,18 @@ import Navbar from './Navbar/Navbar'
 import About from './Content/About';
 import Homepage from './Content/Homepage';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
       <Navbar />
       <Routes>
         <Route path="/" Component={Homepage} />
         <Route path="/about" Component={About} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   </React.StrictMode>
 );
