@@ -2,22 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Navbar from './Navbar/Navbar'
-import About from './Content/About';
-import Homepage from './Content/Homepage';
+
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
+import Wrapper from './Content/Wrapper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter basename="/">
-      <Navbar />
-      <Routes>
-        <Route path="/" Component={Homepage} />
-        <Route path="/about" Component={About} />
-      </Routes>
-    </HashRouter>
-    
+    <Navbar/> 
+    <Wrapper/>
   </React.StrictMode>
 );
 
