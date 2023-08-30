@@ -1,7 +1,7 @@
 function Homepage(){
 
     return(
-        <div id="homepage" className="h-screen shadow-xl dark:shadow-none rounded-2xl bg-white dark:bg-[#36393F] mt-20 mx-10 p-5">
+        <div id="homepage" className="transition-colors duration-500 h-screen shadow-xl dark:shadow-none rounded-2xl bg-white dark:bg-[#36393F] mt-20 mx-10 p-5">
             <p className="dark:text-gray-300">Homepage</p>
         </div>
     )
